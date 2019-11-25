@@ -1,0 +1,28 @@
+class pegawai laboratorium(object):
+    def __init__(self, nama, jabatan,):
+        self.nama = nama
+        self.jabatan = jabatan 
+  
+    def nama(self):
+        print("eko susilo")
+
+    def jabatan(self):
+        print("kepala laboratorium")
+
+class pegawai(laboratorium):
+    pass
+
+b = pegawailab("arum", penjaga leb multimedia)
+print()
+print("Nama:", b.nama)
+print("jabatan :", b.jabatan)
+b.nama()
+b.Jabatan()
+
+a = pegawailab("arum", penjaga leb multimedia)
+print()
+print("Nama:", b.nama)
+print("jabatan :", b.jabatan)
+a.nama()
+a.Jabatan()
+
